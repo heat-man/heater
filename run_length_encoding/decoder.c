@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(int argc, char* argv[]){
-	if(argc < 2){
+	if(argc < 3){
 		printf("usage: decoder.exe [file to decode] [output file]\n");
 		return 0;
 	}
