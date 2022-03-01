@@ -10,8 +10,8 @@ int main(int argc, char* argv[]){
 	FILE *output;
 	char _count;
 	int nowChar, prevChar, count;
-	input = fopen(argv[0], "rb");
-	output = fopen(argv[1], "wb");
+	input = fopen(argv[1], "rb");
+	output = fopen(argv[2], "wb");
 	prevChar = -1;
 	while(1){
 		nowChar = fgetc(input);
